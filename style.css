@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*HEADER */
 .header-menu {
     background: #253561;
@@ -38,4 +42,85 @@
 .home img {
     width: 550;
     height: 550;
+}
+
+/* MAIN - PROJECTS */
+
+.conteiner-main {
+    background-color: #f6f6f6;
+}
+
+.projects .card {
+    width: 90%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.projects .card button{
+    background-color: #253561;
+    border: none;
+}
+
+.projects .cards {
+    display:flex;
+    justify-content: center;
+}
+
+/*MAIN - ABOUR */
+.about .espaco-entre {
+    padding: 0;
+}
+
+.about .borda {
+    border: 1px solid #714699;
+}
+
+.about .borda p {
+    padding: 10px;
+}
+
+/* MAIN - ACTION */
+
+.action {
+    background-color: #253561;
+    padding: 20px;
+}
+
+/* MAIN - SOCIAL MEDIAS */
+.collaborators .row {
+    display: flex;
+    justify-content: center;
+}
+
+.collaborators .border {
+    width: 30%;
+    padding: 10px;
+    margin-right: 2em;
+    border-radius: 0.5em;
+}
+
+.collaborators .border i {
+    font-size: 25px;
+}
+
+.border .bi-facebook {
+    color: #1459dc;
+}
+
+.border .bi-instagram{
+    color: #3f729b;
+}
+
+.border .bi-whatsapp {
+    color: #00b520;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #253561;
+}
+
+.footer .figure-logo img {
+    width: 300px;
+    height: 250px;
 }
