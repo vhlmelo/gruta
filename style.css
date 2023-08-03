@@ -10,7 +10,7 @@ html {
 
 /*HEADER */
 .header-menu {
-    background: black;
+    background-color: black;
     height: 100vh;
 }
 
@@ -47,12 +47,12 @@ html {
 /* MAIN - PROJECTS */
 
 .conteiner-main {
-    background-color: #f6f6f6;
+    background-color: #39ff14;
 }
 
 .projects .card {
     width: 90%;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 .projects .card button{
@@ -66,12 +66,20 @@ html {
 }
 
 /*MAIN - ABOUR */
+
+.about {
+    background-color: black;
+}
+
+.about .texto {
+    font-size: x-large;
+}
 .about .espaco-entre {
     padding: 0;
 }
 
 .about .borda {
-    border: 1px solid #714699;
+    border: 1px solid #39ff14;
 }
 
 .about .borda p {
