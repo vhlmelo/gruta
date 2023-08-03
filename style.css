@@ -10,7 +10,7 @@ html {
 
 /*HEADER */
 .header-menu {
-    background: #253561;
+    background: black;
     height: 100vh;
 }
 
@@ -86,6 +86,10 @@ html {
 }
 
 /* MAIN - SOCIAL MEDIAS */
+
+.collaborators {
+    background-color: black;
+}
 .collaborators .row {
     display: flex;
     justify-content: center;
@@ -117,10 +121,10 @@ html {
 /* FOOTER */
 
 .footer {
-    background-color: #253561;
+    background-color: black;
 }
 
 .footer .figure-logo img {
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 150px;
 }
